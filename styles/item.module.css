@@ -1,0 +1,61 @@
+.filters-item {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.list_items {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: solid grey 1px;
+  max-width: 365px;
+  position: relative;
+}
+
+.item_image {
+  order: 0;
+}
+
+.item_title {
+  order: 1;
+}
+
+.item_text {
+  order: 1;
+}
+
+.wishList_button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.add * {
+  color: aqua;
+}
+
